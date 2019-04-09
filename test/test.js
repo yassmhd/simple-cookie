@@ -10,6 +10,15 @@ var c = {
 var co;
 var date = (new Date((new Date()).valueOf() + 3000)).toGMTString();
 
+var assert = require('assert');
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal([1, 2, 3].indexOf(4), -1);
+    });
+  });
+});
+
 describe('simple-cookie',function(){
 
     describe('#stringify',function(){
@@ -53,7 +62,7 @@ describe('simple-cookie',function(){
             h.path.should.equal( '/' );
             h.domain.should.equal( '.example.com' );
 
-        });		
+        });
     });
 
     describe('#parseString2',function(){
@@ -72,7 +81,7 @@ describe('simple-cookie',function(){
             h.path.should.equal( '/' );
             h.domain.should.equal( '.example.com' );
 
-        });     
+        });
     });
 
     describe('#tokeninze',function(){

@@ -4,6 +4,7 @@ simple cookie serializer & parser for node.js
 [![NPM Version](https://img.shields.io/npm/v/simple-cookie.svg?style=flat)](https://npmjs.org/package/simple-cookie)
 [![Dependency Status](https://david-dm.org/juji/simple-cookie.svg)](https://david-dm.org/juji/simple-cookie)
 [![devDependency Status](https://david-dm.org/juji/simple-cookie/dev-status.svg)](https://david-dm.org/juji/simple-cookie#info=devDependencies)
+[![Coverage Status](https://coveralls.io/repos/github/yassmhd/simple-cookie/badge.svg?branch=master)](https://coveralls.io/github/yassmhd/simple-cookie?branch=master)
 [![Build Status][travis-image]][travis-url]
 
 ## install
